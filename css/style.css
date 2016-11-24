@@ -1,0 +1,50 @@
+footer{
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 500px;
+  text-align: center;
+}
+
+.error{
+  color: #D32F2F;
+  font-weight: bolder;
+}
+
+body{
+  font-size: 25px;
+}
+
+.perso{
+  background-color:#BBDEFB;
+  border: 1px solid #BBDEFB;
+  margin : 10px;
+  margin-left : 150px;
+  padding : 5px;
+  overflow: auto;
+}
+
+.old{
+  background-color:#F8BBD0;
+  border: 1px solid #F8BBD0;
+  margin : 10px;
+  padding : 5px;
+  margin-right : 150px;
+  overflow: auto;
+}
+
+.news{
+  background-color: #8BC34A;
+  border: 1px solid #8BC34A;
+  margin : 10px;
+  padding : 5px;
+  overflow: auto;
+}
+
+#tchat{
+  max-height: 800px;
+  overflow: auto;
+  margin-bottom: 150px;
+}
